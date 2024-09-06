@@ -1,0 +1,130 @@
+*{
+	padding:0;
+	margin: 0px;
+}
+.main{
+height: 100%;
+background:url("img/ab.jpg");
+background-size: cover;
+padding-top:30px ;
+}
+
+.main h1{
+	font-size: 50px;
+	color: green;
+}
+.aq{
+	height: 50px ;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#te{
+	height: 50px;
+	width: 200 px;
+	border-radius: 20px;
+	font-size: 25px;
+	padding-left: 20px;
+	color: white;
+	 background-color: rgba(0, 0, 0, 0.664);
+}
+button {
+background: #18c474;
+color: white;
+	height: 45px;
+	width: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	border: 0px;
+	margin-left: 20px;
+
+}
+#date{
+	margin-top:20px ;
+	margin-left: -40px;
+	font-size: 30px;
+	font-weight: 600;
+	color: violet;
+}
+
+#info{
+	margin-top: 20px;
+}
+
+#temp{
+	font-size: 60px;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+#la{
+	padding-top: 10px;
+	font-size: 20px;
+}
+#info img{
+	margin-top: 10px;
+}
+
+#last{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	margin-top: 10px;
+	color:lavenderblush;
+}
+
+#hh{
+	font-size: 30px;
+	padding-right: 30px;
+}
+
+#cc{
+	font-size: 30px;
+	padding-left: 50px;
+}
+
+
+@media screen and (max-width: 426px) {
+	#date{
+	margin-top:20px ;
+	margin-left: -20px;
+	font-size: 20px;
+	
+}
+#info h1{
+	font-size: 30px;
+}
+
+#hh{
+	font-size: 20px;
+	
+}
+
+#cc{
+	font-size: 20px;
+	
+}
+
+}
+
+@media screen and (max-width: 376px) {
+
+#te{
+	width: 190px;
+	font-size: 20px;
+}
+#hh{
+	
+	padding-right: 20px;
+}
+
+#cc{
+	
+	padding-left: 40px;
+}
+
+}
